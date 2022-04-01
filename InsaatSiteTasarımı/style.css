@@ -15,8 +15,7 @@
     width: 100%;
     height: 12%;
     background-color: rgba(184, 182, 182, 0.3);
-    display: flex;
-    
+    display: flex;   
 
 }
 .wissen{
@@ -63,11 +62,16 @@
 
 .dropdown-child{
     display: none;
+    background-color: white;
+    margin-top: 22px;
     
 }
 .dropdown a{
     cursor: pointer;
     display: block;
+}
+.dropdown-child a{
+    margin-bottom: 15px;
 }
 .dropdown a:hover{
     color:rgb(61, 60, 60);   
