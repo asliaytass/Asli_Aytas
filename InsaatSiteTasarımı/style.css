@@ -1,0 +1,185 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    width: 100%;
+    height: 12%;
+    background-color: rgba(184, 182, 182, 0.3);
+    display: flex;
+    
+
+}
+.wissen{
+    font-size: 25pt;
+    font-weight: bold;
+    justify-content: left;
+}
+.insaat{
+    font-size: 10pt;
+    text-align: right;
+    justify-content: right;
+}
+.menu-logo-container{
+    padding-top: 10px;
+    padding-right: 3px;
+}
+
+.menu-logo{
+    display: block;
+    border-bottom: 8px solid rgb(58, 56, 56);
+    border-right: 5px solid rgb(58, 56, 56);
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    margin-top: 5px;   
+}
+.menu-icerik{
+    display: flex;
+    padding-left: 60px;
+    margin-top: 25px;
+}
+.menu-icerik a{
+    font-size: 15pt;    
+    /* margin: 3px; */
+    margin-left: 30px;
+    font-weight: 500;
+    color:rgb(136, 133, 133);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+.ortala{
+    text-align: center;
+}
+
+
+.dropdown-child{
+    display: none;
+    
+}
+.dropdown a{
+    cursor: pointer;
+    display: block;
+}
+.dropdown a:hover{
+    color:rgb(61, 60, 60);   
+}
+
+.dropdown{
+    position: relative;
+    display: block;
+    width: 180px;
+     
+}
+.dropdown:hover .dropdown-child{
+    display: block;  
+    position: absolute;
+    top:30px;
+    z-index:5;
+} 
+.icerik{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+  
+}
+.slider{
+    position: relative;
+    /* margin-top: 15px; */
+    display: flex;
+    width: 100%;
+    height: 600px; 
+     overflow: hidden; 
+}
+
+.slider-content{
+    
+    position:absolute;
+    display:inline-block;
+    text-align:center;
+    justify-content:center; 
+    top:0px;
+    animation : animasyon 20s infinite; 
+    width: 100%;
+    height:600px;
+    
+}
+.slider-item{
+    opacity: 0.6;  
+}
+.card-container{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    background-color: rgb(166, 175, 187,0.3);
+}
+.card-image img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.card{
+    display:flex;
+    margin:10px;
+    flex-direction: column;
+   border-radius: 15px;
+    width: 250px;
+    height: 300px;
+    padding-top: 30px;
+}
+.card-icerik{
+    width: 250px;
+    height: 50px;
+    font-size: 13pt;
+    display:flex;
+    flex-direction: column;
+}
+
+
+
+
+@keyframes animasyon{
+    0%{
+        transform: translateY(0px);
+    }
+    10%{
+        transform: translateY(-610px);
+    } 
+    20%{
+        transform: translateY(-610px);
+    } 
+    30%{
+        transform: translateY(-1220px);
+    } 
+    40%{
+        transform: translateY(-1220px);
+    } 
+    50%{
+        transform: translateY(-1840px);
+    } 
+    60%{
+        transform: translateY(-1840px);
+    }
+    70%{
+        transform: translateY(-2450px);
+    }
+     80%{
+        transform: translateY(-2450px);
+    } 
+    90%{
+        transform: translateY(0px);
+    }
+    
+    
+    
+}
+
+
