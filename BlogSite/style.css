@@ -5,6 +5,7 @@
     text-decoration: none;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .container{
     width: 100vw;
     height: 100vh;
@@ -31,7 +32,7 @@ nav{
 }
 .nav-logo{
     font-size: 12pt;
-    padding-top:20px;
+    padding-top:25px;
     font-weight: bold;
     color: white;
 }
@@ -43,23 +44,36 @@ nav{
     padding: 3px;
     color: white;
 }
+.active{
+    margin: 15px;
+    padding: 3px;
+    color: white;
+    background-color: red;
+}
 .menu-icerik a:hover{
     background-color: rgb(131, 131, 131,0.8);
     border-radius: 3px;
 }
-header{
-    min-height: 700px; 
+.header-container{
+    width: 100%;
+    height: 700px;
+}
+.header{
     height: 700px;
     width: 100%;    
     background:url(img5.jpg);
 } 
-.icerik{
+ .icerik{
     width: 100%;
     display: flex;
     flex-direction: row;
-    height: 1000px;
+    height: 300px;
     justify-content: space-between;
     margin: auto;
+}
+.icerikContainer{
+    width: 100%;
+    
 }
 
 .icerik-left{
@@ -91,6 +105,16 @@ header{
     margin-top: 50px;
 
 }
+.detayContainer{
+    padding: 10px;
+    padding-left: 0px;
+}
+.detay{
+    text-decoration: none;
+    color:red;
+    font-size: 12pt;
+    font-weight: bold;
+}
 .html-baslik{
     color: rgb(231, 108, 20);
 }
@@ -104,6 +128,62 @@ header{
     color:rgb(250, 250, 19)
 }
 
+
 hr{
     width: 200px;
+}
+.hakkimda{
+    width: 100%;
+    height: 300px;
+    
+} 
+.hakkimdaContainer{
+    width: 90%;
+    height:300px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.iletisim{
+    width: 100%;
+  height: 550px;  
+  margin-top:80px;
+    display: flex;
+    justify-content: center;
+}
+.iletisimContainer{
+    width:93%;
+    height:500px;
+   
+}
+.iletisim-baslik{
+    width: auto;
+    height: 45px;
+}
+
+.form{
+   width: 80%;
+   height: 400px;
+   padding-top: 20px;
+}
+input,textarea{
+   width: 100%;
+   padding: 12px 20px;
+   margin :8px 0px;
+}
+.form button{
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 12pt;
+    font-weight: 700;
+    border:0px;
+    color:white; 
+    background-color:rgb(59, 122, 143);
+    transition: 2s;
+
+    
+}
+.form button:hover{
+    color:black;
+    
 }

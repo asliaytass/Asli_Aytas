@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Kutu Modeli</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+
+        .container {
+            width: 90%;
+            height: 100vh;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .baslik {
+            margin-top: 15px;
+            height: 45px;
+        }
+
+        .icerik1 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        img {
+            margin: 20px;
+        }
+
+        p {
+            font-size: 13pt;
+        }
+
+        span {
+            color: navy;
+            font-size: 15pt;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="baslik">
+            <h1>CSS KUTU MODELİ</h1>
+
+        </div>
+        <br><br>
+        <div class="icerik1">
+            <div>
+                <h2>Div Etiketi</h2>
+                <br>
+                <p>Div etiketleri blok elementlerdir.Yanda görüldüğü gibi, eğer 4 tane div yazarsak bunlar alt alta
+                    geleceklerdir.</p>
+                <p>Oluşturulan kutuların istenilen düzene sahip olabilmesi için float yöntemi de kullanılabilir
+                    ancak bu <br>yazımızda esnek kutu modelinden yani flex yapısından bahsedeceğiz</p>
+            </div>
+            <div>
+                <img src="divbloklari.JPG">
+                <img src="divkutu.JPG">
+            </div>
+        </div>
+        <br>
+        <div>
+            <h2>Esnek Kutu Modeli</h2>
+            <br>
+            <p>Esnek Kutu Modeli için flex yapısı kullanılmaktadır. Dikeyde ve yatayda konumlandırma açısından kolaylık
+                sağlamaktadır.</p>
+            <p>Yerlerini ayarlamak istediğimiz yapıyı kapsayan bir kapsayıcı div etiketine <i>display:flex </i> özelliği
+                verildiği zaman içerisindekileri <br> konumlandırmak çok daha kolay olacaktır. </p>
+            <p>Yukarıdaki örnek için, 4 adet div etiketini kapsayan bir div oluşturarak display:flex özelliği verdikten
+                sonra
+                bunlar yatayda hizalanmaktadır. <br>
+                Bunun nedeni <i>flex-direction</i> özelliğinin default olarak <i>row</i> olmasından
+                kaynaklanmaktadır. Çünkü kutuları soldan sağa sıralar Eğer bunların <br> yukarıdan aşağıya doğru
+                olmasını row yerine <i>column</i> yazmamız gerekmektedir. <br><br>
+                <img src="flex.png" alt=""><br><br>
+                Flex-directionla yapılabildiği gibi <i>display:flex-inline</i> ile de kutuların yukarıdan aşağıya doğru
+                sıralanmasını sağlayabiliriz.
+            </p>
+            <p>Flex-directionın bu iki özelliği dışında <i>row-reserve</i> ve <i>column-reserve</i> özellikleri
+                bulunmaktadır. Aşağıdaki görsellerde örnekleri bulunmaktadır.</p>
+
+        </div>
+        <br>
+        <div>
+            <img src="column.jpg" alt="">
+            <img src="row.jpg" alt="">
+        </div>
+        <br><br>
+        <div>
+            <h2>Esnek Kutu İçerisindeki Öğeleri Yerleştirmek</h2>
+            <br>
+            <p>Esnek kutu içerisindeki öğeleri konumlandırabilmek için <i>justify-content</i> özelliğinden
+                yararlanacağız. <br>
+                Uygulandığı kapsayıcının her öğesine bu işlemi yapacaktır. Flex-start, flex-end, center, space-between,
+                space-around ve space-evenly <br> olmak üzere 6 özellik bulunmaktadır.
+            </p>
+            <br>
+            <p>
+                <span>flex-start:</span> Kapsayıcı içindeki kutular baştan başlayarak dizilir. <br>
+                <span>flex-end:</span> Kapsayıcı içindeki kutular sondan başlayarak dizilir. <br>
+                <span>center:</span> Kapsayıcı içindeki kutular sondan başlayarak dizilir. <br>
+                <span>space-between:</span> Kapsayıcı içindeki kutular arasındaki boşluk eşit olacak şekilde ilk kutu
+                başa son kutu sona dizilir. <br>
+                <span>space-around:</span> Kapsayıcı içindeki kutular arasındaki boşluk eşit olacak şekilde dizilir.
+                <br>
+                <span>space-evenly:</span> Kapsayıcı içindeki kutular arasındaki boşluk eşittir fakat sol ve sağ
+                kısımlarda da boşluk olacak şekilde dizilir. <br>
+
+
+            </p>
+            <br><br>
+            <img src="justify-content.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
