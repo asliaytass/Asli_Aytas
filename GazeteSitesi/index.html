@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap min linki -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap bundle min linki -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Fontawesome linki -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Kendi stil dosyam  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- HEADER BAŞLANGIÇ -->
+    <header>
+        <!--1. NAVBAR BAŞLANGIÇ(Üst Menü) -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-top fixed-top">
+            <div class="container-fluid d-flex">
+                <!-- Logo başlangıç -->
+                <div class="logo">
+                    <a class="navbar-brand fs-1 fw-bold" href="#">duva<span class="R">R.</span></a>
+                </div>
+                <!-- Logo bitiş -->
+
+                <!-- Sosyal medya iconları başlangıç -->
+                <div class="justify-content-end sosyal-medya">
+                    <a class="navbar-brand " href=""><i class="fa-brands fa-twitter-square "></i></a>
+                    <a class="navbar-brand " href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a class="navbar-brand " href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a class="navbar-brand " href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a class="navbar-brand " href=""><i class="fa-brands fa-telegram"></i></a>
+                    <a class="navbar-brand " href=""><i class="fa-brands fa-dailymotion"></i></a>
+                    <a class="navbar-brand " href=""><i class="fa-brands fa-spotify"></i></a>
+                    <a class="navbar-brand " href=""><i class="fa-brands fa-soundcloud"></i></a>
+                    <a href="" class="navbar-brand"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <!-- Sosyal medya iconları bitiş -->
+            </div>
+        </nav>
+        <!--1. NAVBAR BİTİŞ(Üst Menü) -->
+
+
+        <!--2. NAVBAR BAŞLANGIÇ (Alt Menü)-->
+        <div class="nav-bottom">
+            <a class="navbar-brand text-decoration-none text-white text-center" href="">Gündem</a>
+            <a class="navbar-brand text-decoration-none text-white text-center" href="">Politika</a>
+            <a class="navbar-brand text-decoration-none text-white text-center" href="">Dünya</a>
+            <a class="navbar-brand text-decoration-none text-white text-center" href="">Yerel Haber</a>
+            <a class="navbar-brand text-decoration-none text-white text-center" href="">Video</a>
+            <a class="navbar-brand text-decoration-none text-white text-center" href="">Kitap</a>
+            <a class="navbar-brand text-decoration-none text-white text-center" href="">Dergi</a>
+            <a class="navbar-brand text-decoration-none text-white text-center" href="">Arşiv</a>
+            <a class="navbar-brand text-decoration-none text-white text-center" href="">Yazarlar</a>
+            <a class="navbar-brand text-decoration-none text-white text-center" href="">Duvar English</a>
+            <a class="navbar-brand text-decoration-none text-white text-center" href=""><i
+                    class="fa-solid fa-bars"></i></a>
+        </div>
+        <!--2. NAVBAR BİTİŞ (alt menü) -->
+    </header>
+    <!-- HEADER BİTİŞ -->
+
+    <!-- MAİN BAŞLANGIÇ -->
+    <main class="container-fluid justify-content-center d-flex flex-direction-column">
+        <!-- MAİN CONTAİNER BAŞLANGIÇ  -->
+        <div class="container">
+            <!-- 3 KART  BAŞLANGIÇ  -->
+            <div class="row">
+                <div class="col">
+                    <div class="card " style="width: 20rem;">
+                        <img src="https://picsum.photos/id/25/200/150" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Yavaş: Tam bilet ücretinde saabh saati için indirim teklif edeceğiz.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="https://picsum.photos/id/22/200/150" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">Hikmet Karaman: Henüz işimiz bitmedi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 20rem;">
+                        <img src="https://picsum.photos/id/20/200/150" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">İslam Memiş: Alım yapan yaptı,fırtınaya hazırlıklı olun.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 KART  BİTİŞ  -->
+
+            <!-- SLİDER ve yan menü BAŞLANGIÇ  -->
+            <div class="container-fluid d-flex mx-1 px-1 pt-3 " style="width:1000px">
+                <!-- SLİDER BAŞLANGIÇ  -->
+                <div class="d-flex justify-content-start " style="max-width:745px">
+                    <div id="carouselExampleCaptions" class="carousel slide me-2" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://picsum.photos/id/10/745/350" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block text-black fs-4 fw-bold">
+                                    <h5>First slide label</h5>
+                                    <p>Some representative placeholder content for the first slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://picsum.photos/id/43/745/350" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block text-black fs-4 fw-bold">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://picsum.photos/id/65/745/350" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block text-black fs-4 fw-bold">
+                                    <h5>Third slide label</h5>
+                                    <p>Some representative placeholder content for the third slide.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <!-- SLİDER BİTİŞ  -->
+
+                <!-- YAN MENÜ (sliderın yanındaki kart) başlangıç  -->
+                <div class="yanMenu ms-3 ">
+                    <div class="card" style="width: 20rem;">
+                        <img src="https://picsum.photos/id/32/200/150" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">'Üçüncü bahçe eseri' ziyarete açıldı.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- YAN MENÜ (sliderın yanındaki kart) bitiş  -->
+
+            </div>
+            <!-- SLİDER ve yan menü BİTİŞ  -->
+
+            <!-- YAN YANA 2 SLİDERIN OLDUĞU KISIM BAŞLANGIÇ  -->
+            <div class="container-fluid d-flex justify-content-between pt-5">
+
+                <!-- 1.SLİDER BAŞLANGIÇ  -->
+
+                <div id="sol-slide" class="carousel slide me-3" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#sol-slide" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#sol-slide" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#sol-slide" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://picsum.photos/id/33/600/250" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/id/55/600/250" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/id/22/600/250" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#sol-slide"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#sol-slide"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <!-- 1.SLİDER BİTİŞ  -->
+
+
+                <!-- 2.SLİDER BAŞLANGIÇ  -->
+                <div id="sag-slide" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#sag-slide" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#sag-slide" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#sag-slide" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://picsum.photos/id/58/600/250" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/id/57/600/250" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://picsum.photos/id/37/600/250" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#sag-slide"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#sag-slide"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- 2.SLİDER BİTİŞ  -->
+
+
+
+            </div>
+            <!-- YAN YANA 2 SLİDERIN OLDUĞU KISIM BİTİŞ  -->
+
+        </div>
+        <!-- MAİN CONTAİNER BİTİŞ  -->
+
+    </main>
+    <!-- MAİN BİTİŞ  -->
+
+
+    <section class="container-fluid pt-5 d-flex flex-column">
+        <div class=" container fluid section-top d-flex justify-content-between">
+            <div class="cok-okunanlar d-flex flex-column ">
+                <div>
+                    <button class=" rounded-5 buton"></button> <button class="rounded-5 buton"></button> <button
+                        class=" rounded-5 buton "></button> <span class="text-black fs-5 fw-bold">ÇOK OKUNANLAR</span>
+                    <hr style="width:600px; " class="mx-auto ">
+                </div>
+                <div class="cok-okunanlar-slider">
+
+                    <div id="slide" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#slide" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#slide" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#slide" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://picsum.photos/id/75/400/200" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-black">First slide label</h5>
+                                    <p class="text-black">Some representative placeholder content for the first slide.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://picsum.photos/id/69/400/200" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-black">First slide label</h5>
+                                    <p class="text-black">Some representative placeholder content for the first slide.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://picsum.photos/id/96/400/200" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-black">First slide label</h5>
+                                    <p class="text-black">Some representative placeholder content for the first slide.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#slide"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#slide"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="d-flex flex-column">
+                <div>
+                    <button class=" rounded-5 buton"></button> <button class="rounded-5 buton"></button> <button
+                        class=" rounded-5 buton "></button> <span class="text-black fs-5 fw-bold">İLGİNİZİ
+                        ÇEKEBİLİR</span>
+                    <hr style="width:500px;" class="mx-auto">
+                </div>
+                <div>
+                    <p class="fw-bold text-black">Covid 19 salgını hakkinda...</p>
+                    <hr style="width:500px; " class="mx-auto">
+                    <p class="fw-bold text-black">İmamoğlu: Lorem ipsum dolor sit amet. </p>
+                    <hr style="width:500px; " class="mx-auto">
+                    <p class="fw-bold text-black">Sabah yazarı: Lorem ipsum dolor sit amet consectetur.</p>
+                    <hr style="width:500px; " class="mx-auto">
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="yazarlar-container pt-5">
+            <div>
+                <button class=" rounded-5 buton"></button> <button class="rounded-5 buton"></button> <button
+                    class=" rounded-5 buton "></button> <span class="text-black fs-5 fw-bold">GÜNÜN YAZARLARI</span>
+                <hr style="width:1150px; " class="mx-auto">
+            </div>
+            <div class="yazarlar d-flex">
+                <div class="yazar d-flex flex-column ">
+                    <img src="https://picsum.photos/id/47/100/100" class="img-thumbnail img-fluid rounded-pill"
+                        alt="...">
+                    <p class="text-center fw-bold">Ad Soyad </p>
+                    <p class="text-center fw-bold">Lorem, ipsum dolor.</p>
+                </div>
+                <div class="yazar d-flex flex-column ">
+                    <img src="https://picsum.photos/id/66/100/100" class="img-thumbnail img-fluid rounded-pill"
+                        alt="...">
+                    <p class="text-center fw-bold">Ad Soyad </p>
+                    <p class="text-center fw-bold">Lorem, ipsum dolor.</p>
+                </div>
+                <div class="yazar d-flex flex-column ">
+                    <img src="https://picsum.photos/id/67/100/100" class="img-thumbnail img-fluid rounded-pill"
+                        alt="...">
+                    <p class="text-center fw-bold">Ad Soyad </p>
+                    <p class="text-center fw-bold">Lorem, ipsum dolor.</p>
+                </div>
+                <div class="yazar d-flex flex-column ">
+                    <img src="https://picsum.photos/id/53/100/100" class="img-thumbnail img-fluid rounded-pill"
+                        alt="...">
+                    <p class="text-center fw-bold">Ad Soyad </p>
+                    <p class="text-center fw-bold">Lorem, ipsum dolor.</p>
+                </div>
+                <div class="yazar d-flex flex-column ">
+                    <img src="https://picsum.photos/id/77/100/100" class="img-thumbnail img-fluid rounded-pill"
+                        alt="...">
+                    <p class="text-center fw-bold">Ad Soyad </p>
+                    <p class="text-center fw-bold">Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gundem-container pt-5">
+            <div class="gundem-container">
+                <button class=" rounded-5 buton "></button> <button class="rounded-5 buton"></button> <button
+                    class=" rounded-5 buton"></button> <span class="text-black fs-5 fw-bold">GÜNDEM</span>
+                <hr style="width:1150px">
+            </div>
+            <div class="container-fluid ms-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="card " style="width: 20rem;">
+                            <img src="https://picsum.photos/id/87/200/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fw-bold">Avusturalya genel seçime gidiyor...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://picsum.photos/id/88/200/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fw-bold">ABD Baskını: Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://picsum.photos/id/89/200/150" class="card-img-top" alt="...">
+                            <div class="card-body fw-bold">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gundem-container pt-5">
+            <div class="gundem-container">
+                <button class=" rounded-5 buton "></button> <button class="rounded-5 buton"></button> <button
+                    class=" rounded-5 buton"></button> <span class="text-black fs-5 fw-bold">Dünya</span>
+                <hr style="width:1150px">
+            </div>
+            <div class="container-fluid ms-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="card " style="width: 20rem;">
+                            <img src="https://picsum.photos/id/87/200/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fw-bold">Elon Musk: Lorem ipsum dolor sit amet consectetur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://picsum.photos/id/88/200/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fw-bold">Fransada Seçim: Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://picsum.photos/id/89/200/150" class="card-img-top" alt="...">
+                            <div class="card-body fw-bold">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gundem-container pt-5">
+            <div class="gundem-container">
+                <button class=" rounded-5 buton "></button> <button class="rounded-5 buton"></button> <button
+                    class=" rounded-5 buton"></button> <span class="text-black fs-5 fw-bold">POLİTİKA</span>
+                <hr style="width:1150px">
+            </div>
+            <div class="container-fluid ms-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="card " style="width: 20rem;">
+                            <img src="https://picsum.photos/id/90/200/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fw-bold">Akdeniz: Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://picsum.photos/id/91/200/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fw-bold"> Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://picsum.photos/id/92/200/150" class="card-img-top" alt="...">
+                            <div class="card-body fw-bold">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                                    debitis quidem commodi!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- VİDEO VE PODCAST BAŞLANGIÇ  -->
+        
+        
+
+
+
+        <!-- VİDEO VE PODCAST BİTİŞ  -->
+
+    </section>
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</body>
+
+</html>
