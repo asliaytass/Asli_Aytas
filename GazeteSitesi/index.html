@@ -22,18 +22,18 @@
 </head>
 
 <body>
-    <!-- HEADER BAŞLANGIÇ -->
+    <!-- HEADER BASLANGIC -->
     <header>
-        <!--1. NAVBAR BAŞLANGIÇ(Üst Menü) -->
+        <!--1. NAVBAR BACLANGIC(Ust Menu) -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-top fixed-top">
             <div class="container-fluid d-flex">
-                <!-- Logo başlangıç -->
+                <!-- Logo baslangic -->
                 <div class="logo">
                     <a class="navbar-brand fs-1 fw-bold" href="#">duva<span class="R">R.</span></a>
                 </div>
-                <!-- Logo bitiş -->
+                <!-- Logo bitis -->
 
-                <!-- Sosyal medya iconları başlangıç -->
+                <!-- Sosyal medya iconlari baslangic -->
                 <div class="justify-content-end sosyal-medya">
                     <a class="navbar-brand " href=""><i class="fa-brands fa-twitter-square "></i></a>
                     <a class="navbar-brand " href=""><i class="fa-brands fa-facebook"></i></a>
@@ -43,16 +43,16 @@
                     <a class="navbar-brand " href=""><i class="fa-brands fa-dailymotion"></i></a>
                     <a class="navbar-brand " href=""><i class="fa-brands fa-spotify"></i></a>
                     <a class="navbar-brand " href=""><i class="fa-brands fa-soundcloud"></i></a>
-                    
+
                     <a href="" class="navbar-brand"><i class="fa-solid fa-magnifying-glass"></i></a>
                 </div>
                 <!-- Sosyal medya iconları bitiş -->
             </div>
         </nav>
-        <!--1. NAVBAR BİTİŞ(Üst Menü) -->
+        <!--1. NAVBAR BITIS(ust Menu) -->
 
 
-        <!--2. NAVBAR BAŞLANGIÇ (Alt Menü)-->
+        <!--2. NAVBAR BASLANGIC (Alt Menu)-->
         <div class="nav-bottom">
             <a class="navbar-brand text-decoration-none text-white text-center" href="">Gündem</a>
             <a class="navbar-brand text-decoration-none text-white text-center" href="">Politika</a>
@@ -64,8 +64,95 @@
             <a class="navbar-brand text-decoration-none text-white text-center" href="">Arşiv</a>
             <a class="navbar-brand text-decoration-none text-white text-center" href="">Yazarlar</a>
             <a class="navbar-brand text-decoration-none text-white text-center" href="">Duvar English</a>
+
+            <i class="btn text-white fs-4 fa-solid fa-bars" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"></i>
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel" ><p class="ms-3 mt-2">duva<span class="R" style="font-size:20pt">R.</span></p></h5>
+                    <button type="button" class="btn-close text-reset " data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex flex-column">
+                    <div>
+                        <h5><i class="fa-solid fa-house"></i> Anasayfa</h5>
+                        <hr>
+                    </div>
+                    <div>
+                        <h5><i class="fa-solid fa-camera"></i> Galeri</h5>
+                        <hr>
+                    </div>
+                    <div>
+                        <h5><i class="fa-solid fa-circle-play"></i> Video</h5>
+                        <hr>
+                    </div>
+                    <div>
+                        <h5><i class="fa-solid fa-book-open"></i> Kitap</h5>
+                        <hr>
+                    </div>
+                    <div>
+                        <h5><i class="fa-solid fa-book"></i> Dergi</h5>
+                        <hr>
+                    </div>
+                    <div>
+                        <h5><i class="fa-solid fa-microphone"></i> Podcast</h5>
+                        <hr>
+                    </div>
+                    <div>
+                        <h5><i class="fa-solid fa-pencil"></i> Yazarlar</h5>
+                        <hr>
+                    </div>
+                    <div>
+                        <h5><i class="fa-solid fa-book-open"></i> Yeni Çıkan Kitaplar</h5>
+                        <hr>
+                    </div>
+                    <div>
+                        <h5> <i class="fa-solid fa-clock"></i> Arşiv</h5>
+                        <hr>
+                    </div>
+                    <div >
+                        <h5>Kategoriler</h5>
+                        <hr>
+                    </div>
+                    <div >
+                        <h5>Bilim</h5>
+                        <hr>
+                    </div>
+                    <div >
+                        <h5>Dünya</h5>
+                        <hr>
+                    </div>
+                    <div >
+                        <h5>Dünya Forum</h5>
+                        <hr>
+                    </div>
+                    <div >
+                        <h5>Ekonomi</h5>
+                        <hr>
+                    </div>
+                    <div >
+                        <h5>Gündem</h5>
+                        <hr>
+                    </div>
+                    <div >
+                        <h5>Günün karikatürü</h5>
+                        <hr>
+                    </div>
+                    <div >
+                        <h5>Hayat</h5>
+                        <hr>
+                    </div>
+
+                   
+                </div>
+            </div>
+
+
             <a class="navbar-brand text-decoration-none text-white text-center" href=""><i
                     class="fa-solid fa-bars"></i></a>
+
         </div>
         <!--2. NAVBAR BİTİŞ (alt menü) -->
     </header>
@@ -172,12 +259,22 @@
             <!-- YAN YANA 2 SLİDERIN OLDUĞU KISIM BAŞLANGIÇ  -->
             <div class="container-fluid d-flex justify-content-between pt-5">
 
+
                 <!-- 1.SLİDER BAŞLANGIÇ  -->
 
                 <div id="sol-slide" class="carousel slide me-3" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#sol-slide" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
+
+
+                <!-- 1.SLİDER BAŞLANGIÇ  -->
+
+                <div id="sol-slide" class="carousel slide me-3" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#sol-slide" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+
                         <button type="button" data-bs-target="#sol-slide" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#sol-slide" data-bs-slide-to="2"
@@ -224,8 +321,13 @@
                 <!-- 2.SLİDER BAŞLANGIÇ  -->
                 <div id="sag-slide" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
+
                         <button type="button" data-bs-target="#sag-slide" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
+
+                        <button type="button" data-bs-target="#sag-slide" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+
                         <button type="button" data-bs-target="#sag-slide" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
                         <button type="button" data-bs-target="#sag-slide" data-bs-slide-to="2"
@@ -266,6 +368,11 @@
                     </button>
                 </div>
                 <!-- 2.SLİDER BİTİŞ  -->
+
+
+
+
+
 
             </div>
             <!-- YAN YANA 2 SLİDERIN OLDUĞU KISIM BİTİŞ  -->
@@ -395,6 +502,7 @@
                     <p class="text-center fw-bold">Lorem, ipsum dolor.</p>
                 </div>
             </div>
+
         </div>
 
         <div class="gundem-container pt-5">
@@ -925,6 +1033,126 @@
             </div>
         </div>
 
+        </div>
+
+        <div class="gundem-container pt-5">
+            <div class="gundem-container">
+                <button class=" rounded-5 buton "></button> <button class="rounded-5 buton"></button> <button
+                    class=" rounded-5 buton"></button> <span class="text-black fs-5 fw-bold">GÜNDEM</span>
+                <hr style="width:1150px">
+            </div>
+            <div class="container-fluid ms-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="card " style="width: 20rem;">
+                            <img src="https://picsum.photos/id/87/200/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fw-bold">Avusturalya genel seçime gidiyor...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://picsum.photos/id/88/200/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fw-bold">ABD Baskını: Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://picsum.photos/id/89/200/150" class="card-img-top" alt="...">
+                            <div class="card-body fw-bold">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gundem-container pt-5">
+            <div class="gundem-container">
+                <button class=" rounded-5 buton "></button> <button class="rounded-5 buton"></button> <button
+                    class=" rounded-5 buton"></button> <span class="text-black fs-5 fw-bold">Dünya</span>
+                <hr style="width:1150px">
+            </div>
+            <div class="container-fluid ms-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="card " style="width: 20rem;">
+                            <img src="https://picsum.photos/id/87/200/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fw-bold">Elon Musk: Lorem ipsum dolor sit amet consectetur.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://picsum.photos/id/88/200/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fw-bold">Fransada Seçim: Lorem, ipsum dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://picsum.photos/id/89/200/150" class="card-img-top" alt="...">
+                            <div class="card-body fw-bold">
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gundem-container pt-5">
+            <div class="gundem-container">
+                <button class=" rounded-5 buton "></button> <button class="rounded-5 buton"></button> <button
+                    class=" rounded-5 buton"></button> <span class="text-black fs-5 fw-bold">POLİTİKA</span>
+                <hr style="width:1150px">
+            </div>
+            <div class="container-fluid ms-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="card " style="width: 20rem;">
+                            <img src="https://picsum.photos/id/90/200/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fw-bold">Akdeniz: Lorem ipsum dolor sit amet consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://picsum.photos/id/91/200/150" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text fw-bold"> Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="width: 20rem;">
+                            <img src="https://picsum.photos/id/92/200/150" class="card-img-top" alt="...">
+                            <div class="card-body fw-bold">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                                    debitis quidem commodi!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- VİDEO VE PODCAST BAŞLANGIÇ  -->
+        
+        
+
+
+
+        <!-- VİDEO VE PODCAST BİTİŞ  -->
+
+
     </section>
 
     <footer class=" container-fluid d-flex flex-column navbar navbar-expand-lg navbar-darklight bg-dark mt-3">
@@ -949,10 +1177,10 @@
                 <div>
                     <button class="text-white"><i class="fa-brands fa-google-play"></i> Google Play</button>
                 </div>
-            </div>     
+            </div>
 
         </div>
-        <hr style="width: 100%;color:white">   
+        <hr style="width: 100%;color:white">
         <div class="d-flex justify-content-between bottom-footer ">
             <div class="bottom-footer-left ">
                 <p>FOOTER LEFT</p>
@@ -962,10 +1190,15 @@
             </div>
         </div>
 
-        
-        
+
+
 
     </footer>
+
+
+
+
+    </div>
 
 
 

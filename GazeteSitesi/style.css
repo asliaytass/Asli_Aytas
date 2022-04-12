@@ -93,6 +93,7 @@ header{
 #sol-slide , #sag-slide{
     width: 600px;
 }
+
 .video-slider{
     width: 500px;
 }
@@ -138,5 +139,19 @@ footer button{
     margin-right:80px;
     border:1px solid white;
 }
+#offcanvasRightLabel{
+    width: 100%;    
+    color:white;
+    font-size: 20pt;
+    font-weight: bold;
+    background-color: black;
+}
+.offcanvas-header{
+    padding: 0px ;
+}
+#offcanvasRight{
+    border-left:1px solid #d35400;
+}
+
 
 
