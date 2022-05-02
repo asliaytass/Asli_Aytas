@@ -1,0 +1,28 @@
+@model List<Models.Entities.Author>
+@{
+    ViewData["Title"] = "Index";
+}
+<h1 class="mt-4">Author Page</h1>
+<a asp-action="Create" class="text-decoration-none" style="color:#16a085">Create new author</a>
+
+<div class="row mt-4">
+    @foreach (var item in Model)
+    {
+        <div class="col-xl-4 col-md-6 col">
+            <div class="card text-dark bg-light my-4 shadow" style="width: 21rem;">
+                <div class="card-header d-flex justify-content-between">
+                    <a asp-action="Edit" asp-route-id="@item.AuthorId"><i
+                        class="fa-solid fa-gear text-secondary fs-5 "></i></a>
+                    <a asp-action="Delete" asp-route-id="@item.AuthorId"><i
+                        class="fa-solid fa-trash-can text-danger fs-5"></i></a>
+                </div>
+                <a asp-action="Details" asp-route-id="@item.AuthorId" class="text-decoration-none">
+                    <div class="card-body d-flex justify-content-center align-items-center" style="height:120px">
+                        <h5 class="card-title fw-bold fs-3 text-center" style="color:#2c3e50;">@item.AuthorName @item.AuthorSurname</h5>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    }
+</div>

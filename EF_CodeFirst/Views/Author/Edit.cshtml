@@ -1,0 +1,26 @@
+@model Models.Entities.Author
+@{
+    ViewData["Title"] = "Edit";
+}
+<h1 class="mt-4">Author Edit Page</h1>
+<hr>
+
+ <form asp-action="Edit" class="w-50 mt-4">
+    <div class="form-group ">
+        <h4>
+         <label class="control-label" asp-for="AuthorId">#@Model.AuthorId</label><br>
+        </h4>
+         <input type="hidden" asp-for="AuthorId">
+
+        <label class="control-label mt-3" asp-for="AuthorName">Author Name</label>
+        <input type="text" asp-for="AuthorName" class="form-control">
+        <label class="control-label mt-3" asp-for="AuthorSurname">Author Surname</label>
+        <input type="text" asp-for="AuthorSurname" class="form-control">
+        <label class="control-label mt-3" asp-for="AuthorDateOfBirth">Author Date Of Birth</label>
+        <input type="text" asp-for="AuthorDateOfBirth" class="form-control">
+
+    </div>
+    <div class="form-group">
+    <input type="submit" value="Save" class="btn btn-outline-success mt-4">
+    </div>
+</form> 

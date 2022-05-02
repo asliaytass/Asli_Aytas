@@ -1,0 +1,16 @@
+@model Models.Entities.Publisher
+@{
+    ViewData["Title"] = "Details";
+}
+<h1 class="mt-4">Publisher Detail Page</h1>
+<hr>
+
+<div class="card mt-4">
+  <h5 class="card-header">#@Model.PublisherId</h5>
+  <div class="card-body">
+    <h5 class="card-title">@Model.PublisherName</h5>
+    <p class="card-text">@Model.PublisherCity</p>
+    <p class="card-text">@Model.PublisherMail</p>
+ <a class="btn px-3" style="background-color:#FEA47F" asp-action="Index"><i class="fa-solid fa-arrow-left"></i></a> 
+  </div>
+</div>

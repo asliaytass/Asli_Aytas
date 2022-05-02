@@ -1,0 +1,18 @@
+@model Models.Entities.Author
+@{
+    ViewData["Title"] = "Delete";
+}
+<h1 class="mt-4">Author Delete</h1>
+<hr>
+<div class="card mt-5">
+  <h5 class="card-header">#@Model.AuthorId</h5>
+  <div class="card-body">
+    <h5 class="card-title">@Model.AuthorName @Model.AuthorSurname</h5>
+    <p class="card-text"><span style="font-weight:bold; color:#7f8c8d">Date Of Birth:</span> @Model.AuthorDateOfBirth</p>
+    <form asp-action="Delete">
+    <input type="hidden" asp-for="AuthorId">
+    <input type="submit" value="Delete" class="btn btn-outline-danger px-4 py-2">
+    
+</form>
+  </div>
+</div>

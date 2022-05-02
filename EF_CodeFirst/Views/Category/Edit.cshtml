@@ -1,0 +1,25 @@
+@model Models.Entities.Category
+@{
+    ViewData["Title"] = "Edit";
+}
+<h1 class="mt-4">Category Edit Page</h1>
+<hr>
+
+ <form asp-action="Edit" class="w-50 mt-4">
+    <div class="form-group ">
+        <h4>
+         <label class="control-label" asp-for="CategoryId">#@Model.CategoryId</label><br>
+
+        </h4>
+         <input type="hidden" asp-for="CategoryId">
+        
+        <label class="control-label mt-3" asp-for="CategoryName">Category Name</label>
+        <input type="text" asp-for="CategoryName" class="form-control">
+        <label class="control-label mt-3" asp-for="CategoryDescription">Category Description</label>
+        <input type="text" asp-for="CategoryDescription" class="form-control">
+
+    </div>
+    <div class="form-group">
+    <input type="submit" value="Save" class="btn btn-outline-success mt-4">
+    </div>
+</form> 
